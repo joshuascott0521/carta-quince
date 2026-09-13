@@ -160,9 +160,7 @@ function setupCountdown() {
     Object.entries(values).forEach(([key, value]) => {
       if (!fields[key]) return;
       fields[key].textContent =
-        key === "days"
-          ? String(value).padStart(3, "0")
-          : String(value).padStart(2, "0");
+        key === "days" ? String(value) : String(value).padStart(2, "0");
     });
   };
 
