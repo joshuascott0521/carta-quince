@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Invitación de prueba para celebrar los quince años de Valentina Sofía."
+    />
+    <meta name="theme-color" content="#a94f6c" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%23a94f6c'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='30' fill='white' font-family='serif'%3EXV%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="pink-refresh.css" />
+    <script src="script.js" defer></script>
+    <title>Los XV de Valentina Cervantes</title>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <div class="opening-veil" aria-hidden="true">
+      <div class="opening-veil__mark">
+        <span>V</span>
+        <i></i>
+        <span>C</span>
+      </div>
+      <p>Una noche para recordar</p>
+    </div>
+
+    <header class="hero" id="inicio">
+      <div class="hero__wash" aria-hidden="true"></div>
+      <div class="petal-field" id="petal-field" aria-hidden="true"></div>
+
+      <picture class="floral-art floral-art--hero-branch" aria-hidden="true">
+        <source srcset="assets/flower-branch.webp" type="image/webp" />
+        <img src="assets/flower-branch.png" alt="" width="941" height="1672" />
+      </picture>
+      <picture class="floral-art floral-art--hero-bloom" aria-hidden="true">
+        <source srcset="assets/flower-bloom.webp" type="image/webp" />
+        <img src="assets/flower-bloom.png" alt="" width="1254" height="1254" />
+      </picture>
+
+      <svg
+        class="botanical botanical--left"
+        viewBox="0 0 360 560"
+        aria-hidden="true"
+      >
+        <g
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M30 520C72 409 111 342 192 266C248 213 296 137 321 38" />
+          <path d="M97 405C67 376 49 342 50 302C91 305 122 330 137 364" />
+          <path d="M145 329C124 288 126 247 147 211C183 232 201 267 190 305" />
+          <path d="M208 257C199 218 211 178 241 148C268 177 272 213 252 244" />
+          <path d="M261 181C260 145 278 110 311 90C329 124 322 157 298 179" />
+          <path d="M118 374C154 373 185 390 206 421C172 442 137 435 113 411" />
+          <path d="M178 298C218 291 254 306 277 338C245 361 207 356 180 330" />
+          <path d="M230 223C266 208 305 216 334 244C307 272 269 275 237 253" />
+        </g>
+      </svg>
+
+      <svg
+        class="botanical botanical--right"
+        viewBox="0 0 330 520"
+        aria-hidden="true"
+      >
+        <g
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M309 486C261 406 238 324 218 234C203 164 162 95 102 30" />
+          <path d="M238 332C273 313 300 282 313 243C271 234 235 250 212 282" />
+          <path d="M217 249C249 221 264 184 259 143C218 150 188 177 182 216" />
+          <path d="M186 167C205 136 205 99 187 65C152 84 134 118 143 153" />
+          <path d="M250 377C213 366 179 376 151 405C178 434 214 438 247 415" />
+          <path d="M224 293C184 282 147 294 121 323C150 350 188 352 218 327" />
+        </g>
+      </svg>
+
+      <div class="hero__grid shell">
+        <div class="hero__copy">
+          <div class="hero__date-mark" aria-hidden="true">
+            <span>03</span>
+            <div><strong>octubre</strong><small>2026</small></div>
+          </div>
+          <p class="hero__invitation">
+            Con la alegría de mi familia, te invito a celebrar
+          </p>
+          <div class="hero__monogram" aria-label="Mis quince años">
+            <span>XV</span>
+            <i aria-hidden="true"></i>
+          </div>
+          <h1>Valentina<br /><em>Cervantes</em></h1>
+          <p class="hero__promise">El comienzo de una nueva historia</p>
+
+          <div
+            class="hero__facts"
+            aria-label="Información principal del evento"
+          >
+            <p>
+              <time datetime="2026-10-03">Sábado 03 de octubre de 2026</time>
+            </p>
+            <span aria-hidden="true"></span>
+            <p>
+              <time datetime="18:30">9:00 p. m.</time> · Cra. 29B #143C-40
+              Suroccidente, Barranquilla
+            </p>
+          </div>
+
+          <div class="hero__actions">
+            <a class="button button--gold" href="#confirmar"
+              >Confirmar asistencia</a
+            >
+            <a class="text-link" href="#detalles">Ver los detalles</a>
+          </div>
+        </div>
+      </div>
+
+      <a
+        class="scroll-cue"
+        href="#contenido"
+        aria-label="Continuar hacia la invitación"
+      >
+        <span>Descubre la invitación</span>
+        <i aria-hidden="true"></i>
+      </a>
+    </header>
+
+    <main id="contenido">
+      <section
+        class="message-section section-space"
+        aria-labelledby="mensaje-titulo"
+      >
+        <picture
+          class="floral-art floral-art--message-bloom"
+          aria-hidden="true"
+        >
+          <source srcset="assets/flower-bloom.webp" type="image/webp" />
+          <img
+            src="assets/flower-bloom.png"
+            alt=""
+            width="1254"
+            height="1254"
+            loading="lazy"
+          />
+        </picture>
+        <div class="message-section__flower" aria-hidden="true">
+          <i></i><i></i><i></i><i></i><i></i><span></span>
+        </div>
+        <div class="shell message-section__inner reveal">
+          <p class="section-kicker">Para quienes hacen parte de mi historia</p>
+          <h2 id="mensaje-titulo">
+            Hay momentos que se sueñan toda una vida. Quiero compartir el mío
+            contigo.
+          </h2>
+          <p>
+            Acompáñame a celebrar una noche llena de luz, música y recuerdos que
+            guardaremos para siempre.
+          </p>
+          <span class="flourish" aria-hidden="true">✦</span>
+        </div>
+      </section>
+
+      <section class="countdown-section" aria-labelledby="cuenta-titulo">
+        <div class="shell countdown-section__inner reveal">
+          <div class="countdown-section__heading">
+            <p class="section-kicker section-kicker--light">Faltan</p>
+            <h2 id="cuenta-titulo">Para celebrar este sueño</h2>
+          </div>
+
+          <div
+            class="countdown"
+            id="countdown"
+            role="timer"
+            aria-label="Cuenta regresiva para la celebración"
+          >
+            <div class="countdown__unit">
+              <strong data-count="days">00</strong>
+              <span>días</span>
+            </div>
+            <div class="countdown__unit">
+              <strong data-count="hours">00</strong>
+              <span>horas</span>
+            </div>
+            <div class="countdown__unit">
+              <strong data-count="minutes">00</strong>
+              <span>minutos</span>
+            </div>
+            <div class="countdown__unit">
+              <strong data-count="seconds">00</strong>
+              <span>segundos</span>
+            </div>
+          </div>
+          <p class="countdown__finished" id="countdown-finished" hidden>
+            La celebración ha comenzado.
+          </p>
+        </div>
+      </section>
+
+      <section
+        class="details-section section-space"
+        id="detalles"
+        aria-label="Lugares del evento"
+      >
+        <picture
+          class="floral-art floral-art--details-branch"
+          aria-hidden="true"
+        >
+          <source srcset="assets/flower-branch.webp" type="image/webp" />
+          <img
+            src="assets/flower-branch.png"
+            alt=""
+            width="941"
+            height="1672"
+            loading="lazy"
+          />
+        </picture>
+        <div class="shell reveal">
+          <div class="event-details">
+            <article class="event-detail event-detail--single">
+              <span class="event-detail__index" aria-hidden="true">01</span>
+              <div>
+                <p class="event-detail__type">9:00 p. m.</p>
+                <h3>Celebración</h3>
+                <p>Cra. 29B #143C-40</p>
+                <p>Suroccidente, Barranquilla</p>
+              </div>
+              <div class="event-detail__actions">
+                <a
+                  class="detail-link"
+                  href="https://maps.app.goo.gl/QSDgMU5rAKTcrUnf9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Ver ubicación</a
+                >
+                <a class="detail-link" id="calendar-download" href="#"
+                  >Agregar al calendario</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="dress-section section-space"
+        aria-labelledby="vestuario-titulo"
+      >
+        <div class="shell dress-layout reveal">
+          <div class="dress-copy">
+            <p class="section-kicker">Código de vestuario</p>
+            <h2 id="vestuario-titulo">Elegante de noche</h2>
+            <p>
+              Vestido largo o traje formal. Te sugerimos tonos profundos y
+              neutros para acompañar la atmósfera del jardín.
+            </p>
+            <div class="palette" aria-label="Paleta de colores sugerida">
+              <span style="--swatch: #2d2435"><i>Ciruela noche</i></span>
+              <span style="--swatch: #6f3f58"><i>Vino suave</i></span>
+              <span style="--swatch: #b99ca6"><i>Malva</i></span>
+              <span style="--swatch: #c6aa72"><i>Dorado</i></span>
+              <span style="--swatch: #d9d2c5"><i>Champaña</i></span>
+            </div>
+            <p class="dress-note">
+              <span aria-hidden="true">✧</span>
+              El palo de rosa está reservado para Valentina.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="rsvp-section section-space"
+        id="confirmar"
+        aria-labelledby="rsvp-titulo"
+      >
+        <picture class="floral-art floral-art--rsvp-bloom" aria-hidden="true">
+          <source srcset="assets/flower-bloom.webp" type="image/webp" />
+          <img
+            src="assets/flower-bloom.png"
+            alt=""
+            width="1254"
+            height="1254"
+            loading="lazy"
+          />
+        </picture>
+        <div class="rsvp-bloom rsvp-bloom--one" aria-hidden="true"></div>
+        <div class="rsvp-bloom rsvp-bloom--two" aria-hidden="true"></div>
+
+        <div class="shell rsvp-layout reveal">
+          <div class="rsvp-intro">
+            <p class="section-kicker section-kicker--light">Reserva tu lugar</p>
+            <h2 id="rsvp-titulo">¿Celebras conmigo?</h2>
+            <p>Confirma antes del <strong>25 de septiembre de 2026</strong></p>
+            <div class="rsvp-signature" aria-hidden="true">
+              V<span>&amp;</span>C
+            </div>
+          </div>
+
+          <div class="rsvp-panel">
+            <form class="rsvp-form" id="rsvp-form">
+              <div class="form-field form-field--wide">
+                <label for="guest-name">Familia:</label>
+                <input
+                  id="guest-name"
+                  name="guest-name"
+                  type="text"
+                  autocomplete="name"
+                  placeholder="Escribe el nombre de tu familia"
+                  required
+                />
+              </div>
+
+              <fieldset class="form-field form-field--wide attendance-field">
+                <legend>¿Podrás acompañarnos?</legend>
+                <label class="choice">
+                  <input type="radio" name="attendance" value="yes" required />
+                  <span>Sí, allí estaré</span>
+                </label>
+                <label class="choice">
+                  <input type="radio" name="attendance" value="no" required />
+                  <span>No podré asistir</span>
+                </label>
+              </fieldset>
+
+              <div class="form-field">
+                <label for="guest-count">Número de asistentes</label>
+                <select id="guest-count" name="guest-count">
+                  <option value="1">1 persona</option>
+                  <option value="2">2 personas</option>
+                  <option value="3">3 personas</option>
+                  <option value="4">4 personas</option>
+                  <option value="5">5 personas</option>
+                  <option value="6">6 personas</option>
+                  <option value="7">7 personas</option>
+                </select>
+              </div>
+
+              <div class="form-field">
+                <label for="dietary">Restricción alimentaria</label>
+                <input
+                  id="dietary"
+                  name="dietary"
+                  type="text"
+                  placeholder="Opcional"
+                />
+              </div>
+
+              <button class="button button--light form-submit" type="submit">
+                <span>Enviar confirmación</span>
+                <i aria-hidden="true">✓</i>
+              </button>
+            </form>
+
+            <div
+              class="rsvp-success"
+              id="rsvp-success"
+              role="status"
+              tabindex="-1"
+              hidden
+            >
+              <div class="rsvp-success__seal" aria-hidden="true">
+                <span>✓</span>
+              </div>
+              <p class="section-kicker section-kicker--light">
+                Respuesta registrada
+              </p>
+              <h3 id="success-title">Tu lugar está reservado</h3>
+              <p id="success-message">
+                Gracias por confirmar. Valentina estará feliz de compartir esta
+                noche contigo.
+              </p>
+              <button class="text-button" id="edit-rsvp" type="button">
+                Cambiar respuesta
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell site-footer__inner">
+        <p>Con cariño,</p>
+        <strong>Valentina Cervantes</strong>
+        <span aria-hidden="true">XV</span>
+        <p>Sábado, 03 de octubre de 2026 · Cra 29B # 1</p>
+        <a href="#inicio">Volver al inicio</a>
+      </div>
+    </footer>
+  </body>
+</html>
