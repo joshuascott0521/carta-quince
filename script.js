@@ -271,7 +271,7 @@ function setupRsvp() {
       `Número de asistentes: ${guestCount}%0A` +
       `Restricción alimentaria: ${dietary}%0A%0A` +
       `Muchas gracias por tan hermoso momento.`;
-    const whatsappUrl = `https://wa.me/573106704969?text=${whatsappText}`;
+    const whatsappUrl = `https://wa.me/573005960689?text=${whatsappText}`;
 
     submit?.classList.add("is-loading");
     submit?.setAttribute("aria-busy", "true");
